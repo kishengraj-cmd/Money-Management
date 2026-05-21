@@ -1,0 +1,489 @@
+{
+  "categories": [
+    {
+      "id": "food",
+      "name": "Food & Dining",
+      "icon": "Utensils",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "fuel",
+      "name": "Fuel & Transport",
+      "icon": "Fuel",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "games",
+      "name": "Games & Tech",
+      "icon": "Gamepad2",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy & Health",
+      "icon": "Pill",
+      "color": "#EF4444"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping & Apparel",
+      "icon": "ShoppingBag",
+      "color": "#EC4899"
+    },
+    {
+      "id": "utilities",
+      "name": "Bills & Utilities",
+      "icon": "Lightbulb",
+      "color": "#6366F1"
+    },
+    {
+      "id": "rent",
+      "name": "Rent & Housing",
+      "icon": "Home",
+      "color": "#64748B"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment & Leisure",
+      "icon": "Film",
+      "color": "#F43F5E"
+    },
+    {
+      "id": "salary",
+      "name": "Salary & Income",
+      "icon": "Wallet",
+      "color": "#10B981"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "bank",
+      "name": "Chase Checking",
+      "balance": 4820,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "credit",
+      "name": "Cash Rewards Visa",
+      "balance": -240.5,
+      "color": "#F97316"
+    },
+    {
+      "id": "cash",
+      "name": "Cash Wallet",
+      "balance": 350,
+      "color": "#10B981"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t-rent-prev",
+      "amount": 1200,
+      "type": "expense",
+      "category": "rent",
+      "accountId": "bank",
+      "date": "2026-04-01",
+      "description": "Monthly Apartment Rent",
+      "createdAt": "2026-04-01T08:00:00.000Z"
+    },
+    {
+      "id": "t-rent-curr",
+      "amount": 1200,
+      "type": "expense",
+      "category": "rent",
+      "accountId": "bank",
+      "date": "2026-05-01",
+      "description": "Monthly Apartment Rent",
+      "createdAt": "2026-05-01T08:00:00.000Z"
+    },
+    {
+      "id": "t-sal-prev",
+      "amount": 4500,
+      "type": "income",
+      "category": "salary",
+      "accountId": "bank",
+      "date": "2026-04-01",
+      "description": "Monthly Corporate Salary",
+      "createdAt": "2026-04-01T09:00:00.000Z"
+    },
+    {
+      "id": "t-sal-curr",
+      "amount": 4500,
+      "type": "income",
+      "category": "salary",
+      "accountId": "bank",
+      "date": "2026-05-01",
+      "description": "Monthly Corporate Salary",
+      "createdAt": "2026-05-01T09:00:00.000Z"
+    },
+    {
+      "id": "t-apr-0",
+      "amount": 24.5,
+      "type": "expense",
+      "category": "food",
+      "accountId": "credit",
+      "date": "2026-04-02",
+      "description": "Sushico Dinner",
+      "createdAt": "2026-04-02T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-1",
+      "amount": 45,
+      "type": "expense",
+      "category": "fuel",
+      "accountId": "credit",
+      "date": "2026-04-03",
+      "description": "Gas Station fill up",
+      "createdAt": "2026-04-03T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-2",
+      "amount": 84.2,
+      "type": "expense",
+      "category": "utilities",
+      "accountId": "bank",
+      "date": "2026-04-05",
+      "description": "Electricity Bill",
+      "createdAt": "2026-04-05T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-3",
+      "amount": 15.4,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-04-06",
+      "description": "Starbucks Coffee & Pastry",
+      "createdAt": "2026-04-06T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-4",
+      "amount": 120,
+      "type": "expense",
+      "category": "shopping",
+      "accountId": "credit",
+      "date": "2026-04-08",
+      "description": "Zara Summer Jacket",
+      "createdAt": "2026-04-08T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-5",
+      "amount": 18.2,
+      "type": "expense",
+      "category": "pharmacy",
+      "accountId": "credit",
+      "date": "2026-04-10",
+      "description": "Multivitamins",
+      "createdAt": "2026-04-10T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-6",
+      "amount": 64,
+      "type": "expense",
+      "category": "games",
+      "accountId": "credit",
+      "date": "2026-04-12",
+      "description": "Steam - Elden Ring DLC",
+      "createdAt": "2026-04-12T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-7",
+      "amount": 35.8,
+      "type": "expense",
+      "category": "food",
+      "accountId": "bank",
+      "date": "2026-04-13",
+      "description": "Grocery run at WholeFoods",
+      "createdAt": "2026-04-13T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-8",
+      "amount": 14.99,
+      "type": "expense",
+      "category": "entertainment",
+      "accountId": "credit",
+      "date": "2026-04-15",
+      "description": "Netflix Subscription",
+      "createdAt": "2026-04-15T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-9",
+      "amount": 42.1,
+      "type": "expense",
+      "category": "fuel",
+      "accountId": "credit",
+      "date": "2026-04-17",
+      "description": "Shell Gas Station",
+      "createdAt": "2026-04-17T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-10",
+      "amount": 55,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-04-18",
+      "description": "Weekend Ramen with Friends",
+      "createdAt": "2026-04-18T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-11",
+      "amount": 95,
+      "type": "expense",
+      "category": "utilities",
+      "accountId": "bank",
+      "date": "2026-04-20",
+      "description": "Water & Internet Bundle",
+      "createdAt": "2026-04-20T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-12",
+      "amount": 32.5,
+      "type": "expense",
+      "category": "shopping",
+      "accountId": "credit",
+      "date": "2026-04-22",
+      "description": "T-shirt sale",
+      "createdAt": "2026-04-22T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-13",
+      "amount": 110,
+      "type": "expense",
+      "category": "games",
+      "accountId": "credit",
+      "date": "2026-04-24",
+      "description": "Sony PlayStation Controller",
+      "createdAt": "2026-04-24T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-14",
+      "amount": 12,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-04-25",
+      "description": "Snacks & Soda",
+      "createdAt": "2026-04-25T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-15",
+      "amount": 48,
+      "type": "expense",
+      "category": "entertainment",
+      "accountId": "credit",
+      "date": "2026-04-27",
+      "description": "Cinema IMAX 2 tickets",
+      "createdAt": "2026-04-27T14:30:00.000Z"
+    },
+    {
+      "id": "t-apr-16",
+      "amount": 42.5,
+      "type": "expense",
+      "category": "food",
+      "accountId": "credit",
+      "date": "2026-04-29",
+      "description": "Gourmet Pizza Delivery",
+      "createdAt": "2026-04-29T14:30:00.000Z"
+    },
+    {
+      "id": "t-may-0",
+      "amount": 28,
+      "type": "expense",
+      "category": "food",
+      "accountId": "credit",
+      "date": "2026-05-02",
+      "description": "Chipotle Mexican Lunch",
+      "createdAt": "2026-05-02T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-1",
+      "amount": 52,
+      "type": "expense",
+      "category": "fuel",
+      "accountId": "credit",
+      "date": "2026-05-04",
+      "description": "Chevron Gas Station",
+      "createdAt": "2026-05-04T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-2",
+      "amount": 89.5,
+      "type": "expense",
+      "category": "utilities",
+      "accountId": "bank",
+      "date": "2026-05-05",
+      "description": "Electricity & Gas Grid",
+      "createdAt": "2026-05-05T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-3",
+      "amount": 19.5,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-05-07",
+      "description": "Cafe & Sweet breakfast",
+      "createdAt": "2026-05-07T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-4",
+      "amount": 240,
+      "type": "expense",
+      "category": "shopping",
+      "accountId": "credit",
+      "date": "2026-05-09",
+      "description": "Bose QuietComfort Headphones",
+      "createdAt": "2026-05-09T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-5",
+      "amount": 45.1,
+      "type": "expense",
+      "category": "pharmacy",
+      "accountId": "credit",
+      "date": "2026-05-11",
+      "description": "Prescription & Allergy Drops",
+      "createdAt": "2026-05-11T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-6",
+      "amount": 15,
+      "type": "expense",
+      "category": "entertainment",
+      "accountId": "credit",
+      "date": "2026-05-12",
+      "description": "Spotify Premium Family",
+      "createdAt": "2026-05-12T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-7",
+      "amount": 42.5,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-05-14",
+      "description": "Deli lunch platter & drinks",
+      "createdAt": "2026-05-14T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-8",
+      "amount": 79.99,
+      "type": "expense",
+      "category": "games",
+      "accountId": "credit",
+      "date": "2026-05-15",
+      "description": "Logitech G PRO Wireless Mouse",
+      "createdAt": "2026-05-15T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-9",
+      "amount": 49,
+      "type": "expense",
+      "category": "fuel",
+      "accountId": "credit",
+      "date": "2026-05-16",
+      "description": "Exxon Fuel Stop",
+      "createdAt": "2026-05-16T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-10",
+      "amount": 115,
+      "type": "expense",
+      "category": "shopping",
+      "accountId": "credit",
+      "date": "2026-05-18",
+      "description": "Nike Air Force Sneakers",
+      "createdAt": "2026-05-18T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-11",
+      "amount": 37,
+      "type": "expense",
+      "category": "food",
+      "accountId": "credit",
+      "date": "2026-05-19",
+      "description": "Home Sushi Platter",
+      "createdAt": "2026-05-19T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-12",
+      "amount": 98,
+      "type": "expense",
+      "category": "utilities",
+      "accountId": "bank",
+      "date": "2026-05-20",
+      "description": "Fiber Optics Internet",
+      "createdAt": "2026-05-20T13:10:00.000Z"
+    },
+    {
+      "id": "t-may-13",
+      "amount": 18.5,
+      "type": "expense",
+      "category": "food",
+      "accountId": "cash",
+      "date": "2026-05-21",
+      "description": "Pho Noodle lunch (Today)",
+      "createdAt": "2026-05-21T13:10:00.000Z"
+    }
+  ],
+  "budgets": [
+    {
+      "categoryId": "food",
+      "amount": 450,
+      "period": "monthly"
+    },
+    {
+      "categoryId": "shopping",
+      "amount": 300,
+      "period": "monthly"
+    },
+    {
+      "categoryId": "games",
+      "amount": 150,
+      "period": "monthly"
+    },
+    {
+      "categoryId": "fuel",
+      "amount": 200,
+      "period": "monthly"
+    },
+    {
+      "categoryId": "utilities",
+      "amount": 250,
+      "period": "monthly"
+    },
+    {
+      "categoryId": "all",
+      "amount": 2600,
+      "period": "monthly"
+    }
+  ],
+  "recurrent": [
+    {
+      "id": "rec-rent",
+      "amount": 1200,
+      "categoryId": "rent",
+      "accountId": "bank",
+      "description": "Apartment Monthly Rent",
+      "frequency": "monthly",
+      "startDate": "2026-01-01",
+      "active": true
+    },
+    {
+      "id": "rec-spotify",
+      "amount": 15,
+      "categoryId": "entertainment",
+      "accountId": "credit",
+      "description": "Spotify Premium Family",
+      "frequency": "monthly",
+      "startDate": "2026-01-15",
+      "active": true
+    }
+  ],
+  "settings": {
+    "currency": "INR",
+    "currencySymbol": "Rs.",
+    "darkTheme": true
+  }
+}
